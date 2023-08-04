@@ -1,0 +1,19 @@
+@import "~mdb-ui-kit/css/mdb.min.css";
+.footer-block-content li a {
+  text-decoration: none;
+  color: gray;
+}
+.footer-block-content li {
+  margin-top: 5px;
+}
+.footer-block-content li a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 14px;
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}

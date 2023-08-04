@@ -1,0 +1,10 @@
+.heroSection {
+  height: 80vh;
+  background-image: url("../assets/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 475px;
+  opacity: 0.8;
+  position: relative;
+}

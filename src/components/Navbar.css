@@ -1,0 +1,66 @@
+/* navbar.css */
+.custom-navbar {
+  background-color: #414654;
+  height: 70px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: Helvetica Neue ", Helvetica,Arial,sans-serif";
+}
+.custom-navbar .nav-link {
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  z-index: 2;
+}
+.custom-navbar .nav-link {
+  margin: 0 0.7rem;
+}
+.custom-navbar .navbar-brand {
+  color: #ffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+.custom-navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #ffff;
+  height: 100%;
+}
+.custom-navbar .navbar-brand:hover {
+  color: #ffff;
+}
+.custom-navbar .employer:hover {
+  background-color: #03bea5;
+}
+.custom-navbar .employer {
+  background-color: #03bea5;
+  border-radius: 6px;
+}
+/* Navbar.css */
+
+/* Customize the background color of the Navbar */
+.custom-navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  box-shadow: none;
+}
+
+/* Customize the background color of the Navbar when the hamburger menu is toggled */
+.custom-navbar-expanded {
+  background-color: white;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize the Navbar links */
+.navbar-nav .nav-link {
+  color: #333;
+
+  text-transform: uppercase;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #555;
+}
